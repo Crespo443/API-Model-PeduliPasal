@@ -1,0 +1,10 @@
+tensorflow
+pandas
+numpy
+transformers
+scikit-learn
+matplotlib
+flask
+tf-keras
+ipykernel
+gunicorn
