@@ -37,6 +37,7 @@ local.settings.json
 
 # Pipenv
 venv/
+modelVenv/
 *.env  # Environment files
 Pipfile.lock
 myvenv/
