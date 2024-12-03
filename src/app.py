@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from lib.utils import predict_pasal
+from src.utils import predict_pasal
 
 app = Flask(__name__)
 
@@ -14,6 +14,3 @@ def route_predict_pasal():
     pasal = predict_pasal(text)
     
     return jsonify({'text': text, 'pasal': pasal})
-
-if __name__ == "__main__":
-   app.run(debug=True)
